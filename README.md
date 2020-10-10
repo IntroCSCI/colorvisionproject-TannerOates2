@@ -57,7 +57,7 @@ I used if/else statements to determine if the file was open or not.
 
 ### Iteration
 
-I used do and while loops. I used while to get the lines form the .txt file then used a do/while loop in order to run the program for different files at the users request.
+I used do and while loops. I used while loops to get the lines from the .txt file then used a do/while loop in order to run the program for different files at the users request.
 
 ### File Input and Output
 
