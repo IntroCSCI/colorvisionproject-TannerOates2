@@ -71,7 +71,7 @@ I used do and while loops. I used while loops to get the lines from the .txt fil
 The user enters their file so that the program can text the text within and store it.  The program also outputs the files text in the same format.
 
 ### Arrays/Vectors
-I used an array for the users name so I could output it in all caps.
+I used an array in the CapName function so I could output the users name in all caps.
 
 ### Functions
  I used a function to turn three rgb numbers to a hex color code.
