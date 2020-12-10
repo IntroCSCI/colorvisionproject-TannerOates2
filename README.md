@@ -91,7 +91,7 @@ I used an array in the getId function as a way to get a user id number.
 
  I also used a function to take the hex color code from the other function and determine what color it is.
 
-I also used a function that gives the user an Id number.
+I also used a function that gives the user an Id number by using a random number generator.https://www.cplusplus.com/reference/ctime/
 
 I used a function to set the users name and one to get the users name for output.
 
