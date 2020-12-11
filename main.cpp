@@ -31,7 +31,7 @@ string type;
 int *p;//pointer to int
 
 
-cout << "What is your Name?\n";
+cout << "What is your first name?\n";
 getline(cin,name);
 
 patient.setName(name); //sets patient name
