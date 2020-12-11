@@ -2,8 +2,9 @@
 #include <sstream>
 #include <fstream>
 #include <map> //for toColorName function
-#include "user.h"
 #include <ctime> //for random number generator/ Id function
+#include "user.h"
+
 
 using namespace std;
 
@@ -50,7 +51,7 @@ cout<<"Is Patient Colorblind: "<<patient.getColorblind()<<endl;//outputs if they
 cout<<"Type of Colorblindness: "<< patient.getType()<<endl;//outputs type of colorblindness
 p = getId(); //outputs random number
 for( int i = 0; i < 1; i++) {
-  cout<<"Confirmed User Id: "<<*(p + i)<<endl; //outputs confirmed User Id.
+  cout<<"Confirmed User Id: "<<*(p + i)<<endl; //outputs confirmed User Id using pointer.
 }
 
 do{
@@ -126,7 +127,7 @@ int * getId(){
 
    srand((unsigned)time(NULL));// set the seed
    
-   for (int i = 0; i < 1; ++i) {
+   for (int i = 0; i < 1; ++i) { //can adjust the 1 to output multiple numbers
       r[i] = rand();
       cout<<"User Id: "<<r[i]<< endl;
    }
