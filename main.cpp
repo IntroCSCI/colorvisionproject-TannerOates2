@@ -49,6 +49,9 @@ cout<<"Patient Name: "<<patient.getName()<<endl;//outputs patient name
 cout<<"Is Patient Colorblind: "<<patient.getColorblind()<<endl;//outputs if they are colorblind
 cout<<"Type of Colorblindness: "<< patient.getType()<<endl;//outputs type of colorblindness
 p = getId(); //outputs random number
+for( int i = 0; i < 1; i++) {
+  cout<<"Confirmed User Id: "<<*(p + i)<<endl;
+}
 
 do{
  

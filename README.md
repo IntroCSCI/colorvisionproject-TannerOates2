@@ -38,6 +38,7 @@ Patient Name: Tanner
 Is patient Colorblind: Yes
 Type of Colorblindness: Protanopia
 User Id: 2091089846
+Confirmed User Id: 2091089846
 Please enter the file to be opened:
 rgb.txt   //input
 Color: color1
@@ -65,6 +66,8 @@ I used string to hold what type of colorblindness they have.
 ### Input and Output
 The program ask for user name, if you are colorblind, and what type of colorblindness.
 
+The program outputs user name, if you are colorblind, type of colorblindness, user Id, and confirmed User Id.
+
 The program asks for the user to input a file name. It also asks the user if they want to analyze another file.
 
 It outputs user information in a profile type way.
@@ -77,6 +80,7 @@ I used if/else statements to determine if the file was open or not.
 
 ### Iteration
 
+I used a for loop to output the confirmed User Id.
 I used do and while loops. I used while loops to get the lines from the .txt file then used a do/while loop in order to run the program for different files at the users request.
 
 ### File Input and Output
