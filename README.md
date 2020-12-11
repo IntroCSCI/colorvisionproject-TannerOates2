@@ -62,6 +62,7 @@ I also used string to hold the colors and hex colors.
 I used string to hold user name.
 I used string to hold if they are colorblind.
 I used string to hold what type of colorblindness they have.
+I used int for a pointer.
 
 ### Input and Output
 The program ask for user name, if you are colorblind, and what type of colorblindness.
