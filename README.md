@@ -88,7 +88,7 @@ I used do and while loops. I used while loops to get the lines from the .txt fil
 The user enters their file so that the program can text the text within and store it.  The program also outputs the files text in the same format.
 
 ### Arrays/Vectors
-I used an array in the getId function as a way to get a user id number.
+I used an array in the getId function as a way to store a user id number.
 
 ### Functions
  I used a function to turn three rgb numbers to a hex color code.
@@ -96,6 +96,7 @@ I used an array in the getId function as a way to get a user id number.
  I also used a function to take the hex color code from the other function and determine what color it is.
 
 I also used a function that gives the user an Id number by using a random number generator.https://www.cplusplus.com/reference/ctime/
+https://www.cplusplus.com/reference/cstdlib/rand/
 
 I used a function to set the users name and one to get the users name for output.
 
